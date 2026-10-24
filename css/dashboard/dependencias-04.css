@@ -1,0 +1,248 @@
+#pantallaDependencia .table-custom td:nth-child(11) > button {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 34px;
+  padding: 7px 11px !important;
+  border: 0 !important;
+  border-radius: 9px !important;
+  background: #2878ed !important;
+  box-shadow: 0 4px 10px rgba(40, 120, 237, 0.22);
+  color: #ffffff !important;
+  font-size: 0 !important;
+  font-weight: 650 !important;
+  transition: transform 0.16s ease, box-shadow 0.16s ease, background-color 0.16s ease;
+}
+
+#pantallaDependencia .table-custom td:nth-child(11) > button::before {
+  width: 13px;
+  height: 13px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='1.9' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M22 2 11 13'/%3E%3Cpath d='m22 2-7 20-4-9-9-4 20-7Z'/%3E%3C/svg%3E") center / contain no-repeat;
+  content: "";
+}
+
+#pantallaDependencia .table-custom td:nth-child(11) > button::after {
+  color: #ffffff;
+  content: "Cargar Respuesta";
+  font-size: 10px;
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+#pantallaDependencia .table-custom td:nth-child(11) > button:hover {
+  transform: translateY(-1px);
+  background: #1768dc !important;
+  box-shadow: 0 6px 14px rgba(40, 120, 237, 0.28);
+}
+
+#pantallaDependencia .table-custom td:nth-child(11) .response-file-link {
+  display: inline-flex;
+  width: 122px;
+  height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  border-radius: 8px;
+  background: #2878ed !important;
+  box-shadow: 0 3px 9px rgba(40, 120, 237, 0.18);
+}
+
+#pantallaDependencia .table-custom td:nth-child(11) {
+  text-align: center;
+}
+
+#pantallaDependencia .table-custom td:nth-child(11) .response-file-actions {
+  width: 100%;
+  justify-content: center;
+}
+
+#pantallaDependencia .table-custom td:nth-child(11) .response-replace-button,
+#pantallaDependencia .table-custom td:nth-child(11) .response-delete-button {
+  min-height: 28px;
+  padding: 5px 8px !important;
+  border-radius: 7px;
+  text-decoration: none;
+}
+
+#pantallaDependencia .table-custom td:nth-child(11) .response-replace-button {
+  background: #eaf2ff !important;
+}
+
+#pantallaDependencia .table-custom td:nth-child(11) .response-delete-button {
+  background: #fff0f0 !important;
+}
+
+#pantallaDependencia .table-custom td:nth-child(11) > button {
+  display: inline-flex;
+  width: 122px;
+  height: 25px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  min-height: 25px;
+  padding: 4px 8px !important;
+}
+
+#pantallaDependencia .table-custom td:nth-child(11) > button::before {
+  width: 11px;
+  height: 11px;
+}
+
+#pantallaDependencia .table-custom td:nth-child(11) > button::after {
+  font-size: 11px;
+}
+
+@media (max-width: 900px) {
+  #pantallaDependencia > .view-card {
+    padding: 16px;
+  }
+
+  #pantallaDependencia #tituloDependenciaDetalle {
+    font-size: 21px !important;
+  }
+
+  #pantallaDependencia .detail-filters {
+    display: flex;
+  }
+
+  #pantallaDependencia .detail-filters input,
+  #pantallaDependencia .detail-filters select {
+    flex: 1 1 190px;
+  }
+
+  #pantallaDependencia .detail-filters {
+    flex-wrap: wrap;
+  }
+
+  #pantallaDependencia .detail-filter-button {
+    margin-left: 0;
+  }
+
+  #pantallaDependencia .detail-table-scroll {
+    max-width: 100%;
+    overscroll-behavior-x: contain;
+  }
+}
+
+@media (max-width: 600px) {
+  #pantallaDependencia > .view-card {
+    padding: 12px;
+    border-radius: 14px;
+  }
+
+  #pantallaDependencia .detail-filters {
+    width: 100%;
+  }
+
+  #pantallaDependencia .detail-filters input,
+  #pantallaDependencia .detail-filters select {
+    flex: 1 1 100%;
+    width: 100%;
+  }
+
+  #pantallaDependencia .detail-header {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 10px;
+  }
+
+  #pantallaDependencia #tituloDependenciaDetalle,
+  #pantallaDependencia .detail-status-tag,
+  #pantallaDependencia .detail-filters {
+    grid-column: 1;
+  }
+
+  #pantallaDependencia #tituloDependenciaDetalle {
+    grid-row: 1;
+  }
+
+  #pantallaDependencia .detail-status-tag {
+    grid-row: 2;
+    justify-self: start;
+  }
+
+  #pantallaDependencia .detail-filters {
+    grid-row: 3;
+  }
+
+  #pantallaDependencia .detail-table-scroll {
+    margin-right: -2px;
+    border-radius: 10px;
+  }
+}
+
+#pantallaDependencia .detail-filters {
+  column-gap: 12px !important;
+}
+
+#pantallaDependencia .detail-filters input {
+  flex: 0 1 260px;
+  width: 260px !important;
+  min-width: 210px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='17' height='17' fill='none' stroke='%2373887d' stroke-width='1.7' viewBox='0 0 24 24'%3E%3Ccircle cx='11' cy='11' r='6.5'/%3E%3Cpath d='m16 16 4 4'/%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat !important;
+  background-position: 11px center !important;
+  font-size: 11px !important;
+}
+
+#pantallaDependencia .detail-filters select {
+  flex: 0 1 162px;
+  width: 162px !important;
+  min-width: 148px;
+  padding-left: 31px !important;
+  padding-right: 25px !important;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='17' height='17' fill='none' stroke='%2300a838' stroke-width='1.7' viewBox='0 0 24 24'%3E%3Crect x='3.5' y='5' width='17' height='16' rx='2'/%3E%3Cpath d='M7.5 3v4M16.5 3v4M3.5 10h17'/%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat !important;
+  background-position: 10px center !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+}
+
+#pantallaDependencia #filtroMes {
+  flex-basis: 168px;
+  width: 168px !important;
+}
+
+#pantallaDependencia .detail-filter-button {
+  min-width: 72px;
+  min-height: 36px;
+  padding: 6px 11px;
+  font-size: 11px;
+}
+
+#pantallaDependencia .detail-filter-button > i {
+  font-size: 13px;
+}
+
+@media (max-width: 900px) {
+  #pantallaDependencia .detail-filters {
+    column-gap: 9px !important;
+  }
+
+  #pantallaDependencia .detail-filters input {
+    flex: 1 1 230px;
+  }
+
+  #pantallaDependencia .detail-filters select,
+  #pantallaDependencia #filtroMes {
+    flex: 1 1 155px;
+    width: auto !important;
+  }
+}
+
+@media (max-width: 600px) {
+  #pantallaDependencia .detail-filters input,
+  #pantallaDependencia .detail-filters select,
+  #pantallaDependencia #filtroMes {
+    flex: 1 1 100%;
+    width: 100% !important;
+  }
+}
+
+#pantallaDependencia #tituloDependenciaDetalle {
+  gap: 12px;
+  font-size: 24px !important;
+}
+
